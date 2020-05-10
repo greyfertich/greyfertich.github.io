@@ -236,3 +236,24 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+.jpmorgan_card {
+  background-image: url(assets/jpmorgan_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.sap_card {
+  background-image: url(assets/sap_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.pitt_card {
+  background-image: url(assets/pitt_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
