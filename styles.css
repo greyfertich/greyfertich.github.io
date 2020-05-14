@@ -238,10 +238,10 @@ html, body {
 }
 
 .jpmorgan_card {
-  background-image: url(assets/jpmorgan_logo.png);
+  background-image: url(assets/jpmorgan3.gif);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 200px;
 }
 
 .sap_card {
@@ -256,4 +256,18 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150px;
+}
+
+.deeplearning_ai_card {
+  background-image: url(assets/deeplearning_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.stanford_card {
+  background-image: url(assets/stanford.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 240px;
 }
