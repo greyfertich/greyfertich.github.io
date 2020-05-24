@@ -266,8 +266,15 @@ html, body {
 }
 
 .stanford_card {
-  background-image: url(assets/stanford.png);
+  background-image: url(assets/stanford2.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 240px;
+  background-size: 120px;
+}
+
+.google_card {
+  background-image: url(assets/google.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 140px;
 }
