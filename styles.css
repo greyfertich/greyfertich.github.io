@@ -278,3 +278,10 @@ html, body {
   background-repeat: no-repeat;
   background-size: 140px;
 }
+
+.udacity_card {
+  background-image: url(assets/udacity.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 220px;
+}
