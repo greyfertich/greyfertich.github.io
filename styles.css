@@ -306,3 +306,24 @@ html, body {
   background-repeat: no-repeat;
   background-size: 150px;
 }
+
+._2048_card {
+  background-image: url(assets/2048.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.shakespeare_card {
+  background-image: url(assets/shakespeare.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.alexnet_card {
+  background-image: url(assets/alexnet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
