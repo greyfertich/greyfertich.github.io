@@ -327,3 +327,10 @@ html, body {
   background-repeat: no-repeat;
   background-size: 150px;
 }
+
+.me_card {
+  background-image: url(assets/headshot.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
