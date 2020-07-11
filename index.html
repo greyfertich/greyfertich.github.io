@@ -80,8 +80,7 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
           <a href="#experience" class="mdl-layout__tab is-active">Experience</a>
           <a href="#certifications" class="mdl-layout__tab">Certifications</a>
           <a href="#projects" class="mdl-layout__tab">Projects</a>
-          <a href="#features" class="mdl-layout__tab">About</a>
-          <a href="#features" class="mdl-layout__tab">Contact</a>
+          <a href="#contact" class="mdl-layout__tab">Contact</a>
           <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
             <i class="material-icons" role="presentation">add</i>
             <span class="visuallyhidden">Add</span>
@@ -391,15 +390,15 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
         <div class="mdl-layout__tab-panel" id="projects">
           <!-- SLAM  -->
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <header class="udacity_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
+            <header class="slam_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
                 <h4>SLAM (Simultaneous Localization and Mapping)</h4>
-                Interned at SAP in Pittsburgh on the SDC Hana Migration team.
+                Created probabilistic algorithm for localization and mapping in robots.
               </div>
               <div class="mdl-card__actions">
-                <a href="https://confirm.udacity.com/VHXAT5DX" class="mdl-button">View certification</a>
+                <a href="https://github.com/greyfertich/SLAM" class="mdl-button">View on Github</a>
               </div>
             </div>
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
@@ -413,7 +412,7 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
           </section>
           <!-- Image Captioning -->
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <header class="google_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
+            <header class="captioning_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
@@ -421,7 +420,7 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
                 Designed and trained CNN and RNN on COCO dataset to automatically generate image captions.
               </div>
               <div class="mdl-card__actions">
-                <a href="https://www.credential.net/a727027e-4207-4c01-bbe9-80803c75eec2" class="mdl-button">View certification</a>
+                <a href="https://github.com/greyfertich/Image-Captioning" class="mdl-button">View on Github</a>
               </div>
             </div>
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
@@ -433,17 +432,39 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
               <li class="mdl-menu__item">Dolor</li>
             </ul>
           </section>
-          <!-- Tensorflow in practice -->
+          <!-- Facial Keypoint Detection -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="keypoint_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>Facial Keypoint Detection</h4>
+                Designed CNN to recognize faces and pinpoint 68 unique keypoints along the face.
+              </div>
+              <div class="mdl-card__actions">
+                <a href="https://github.com/greyfertich/Facial-Keypoint-Detection" class="mdl-button">View on Github</a>
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+              <li class="mdl-menu__item">Lorem</li>
+              <li class="mdl-menu__item" disabled>Ipsum</li>
+              <li class="mdl-menu__item">Dolor</li>
+            </ul>
+          </section>
+          <!-- 2048 Bot -->
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="deeplearning_ai_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
-                <h4>Tensorflow in Practice Specialization</h4>
-                Interned at SAP in Pittsburgh on the SDC Hana Migration team.
+                <h4>2048 AI</h4>
+                Created an AI bot to beat the game 2048 using Expectimax search.
               </div>
               <div class="mdl-card__actions">
-                <a href="https://www.coursera.org/account/accomplishments/specialization/4XXM6HR3MH62" class="mdl-button">View certification</a>
+                <a href="https://github.com/greyfertich/2048-bot" class="mdl-button">View on Github</a>
               </div>
             </div>
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
@@ -455,17 +476,17 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
               <li class="mdl-menu__item">Dolor</li>
             </ul>
           </section>
-          <!-- Convolutional Neural Networks -->
+          <!-- Shakespeare -->
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <header class="deeplearning_ai_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
+            <header class="stanford_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
-                <h4>Convolutional Neural Networks</h4>
-                Interning with JPMorgan Chase & Co. in Chicago this summer.
+                <h4>Shakespeare Generator</h4>
+                Trained LSTM to generate brand new Shakespeare writing.
               </div>
               <div class="mdl-card__actions">
-                <a href="https://www.coursera.org/account/accomplishments/verify/PKUYTX6LWSM8" class="mdl-button">View certification</a>
+                <a href="https://github.com/greyfertich/Shakespeare-Generator" class="mdl-button">View on Github</a>
               </div>
             </div>
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
@@ -477,39 +498,17 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
               <li class="mdl-menu__item">Dolor</li>
             </ul>
           </section>
-          <!-- Neural Networks and Deep Learning -->
+          <!-- AlexNet -->
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="deeplearning_ai_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
                 <h4>Neural Networks and Deep Learning</h4>
-                Interned at SAP in Pittsburgh on the SDC Hana Migration team.
+                Implemented AlexNet and other architecures on the Cifar10 dataset.
               </div>
               <div class="mdl-card__actions">
-                <a href="https://www.coursera.org/account/accomplishments/verify/YB76B44WN4GZ" class="mdl-button">View certification</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
-              <li class="mdl-menu__item">Lorem</li>
-              <li class="mdl-menu__item" disabled>Ipsum</li>
-              <li class="mdl-menu__item">Dolor</li>
-            </ul>
-          </section>
-          <!-- Stanford University Machine Learning -->
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <header class="stanford_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__supporting-text">
-                <h4>Stanford University Machine Learning</h4>
-                Worked as an undergraduate researcher at Pitt.
-              </div>
-              <div class="mdl-card__actions">
-                <a href="https://www.coursera.org/account/accomplishments/verify/VUQMK4PPCEYG" class="mdl-button">View certification</a>
+                <a href="https://github.com/greyfertich/Cifar10-AlexNet" class="mdl-button">View on Github</a>
               </div>
             </div>
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
@@ -524,6 +523,32 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
         </div>
 
 
+        <div class="mdl-layout__tab-panel" id="contact">
+          <!-- Contact Card  -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="slam_card section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--grey-200 mdl-color-text--white">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>Contact Me</h4>
+                greyfertich@gmail.com
+                (717) 344-7477
+              </div>
+              <div class="mdl-card__actions">
+                <a href="https://linkedin.com/in/greyfertich" class="mdl-button">LinkedIn</a>
+                <a href="https://github.com/greyfertich" class="mdl-button">Github</a>
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+              <li class="mdl-menu__item">Lorem</li>
+              <li class="mdl-menu__item" disabled>Ipsum</li>
+              <li class="mdl-menu__item">Dolor</li>
+            </ul>
+          </section>
+        </div>
 
 
 
@@ -587,7 +612,6 @@ color picker at http://blog.jonathanargentiero.com/material-design-lite-color-cl
       -->
       </main>
     </div>
-    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/text-only/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>
 </html>

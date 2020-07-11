@@ -285,3 +285,24 @@ html, body {
   background-repeat: no-repeat;
   background-size: 220px;
 }
+
+.slam_card {
+  background-image: url(assets/robot.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.captioning_card {
+  background-image: url(assets/captioning.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.keypoint_card {
+  background-image: url(assets/keypoint.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
